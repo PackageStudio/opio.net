@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>opio.net</PackageId>
+    <Title>opio</Title>
+    <Version>0.3.5</Version>
+    <Authors>zero-plus</Authors>
+    <Company>ZeroPlus_Studio</Company>
+    <Description>opio .net command system for unity, godot.net, .net other project</Description>
+    <Copyright>opio.net</Copyright>
+    <PackageProjectUrl>https://github.com/PackageStudio/opio</PackageProjectUrl>
+    <PackageIcon>opio.jpeg</PackageIcon>
+    <RepositoryUrl>https://github.com/PackageStudio/opio</RepositoryUrl>
+    <RepositoryType>https://github.com/PackageStudio/opio.git</RepositoryType>
+    <PackageTags></PackageTags>
+    <PackageReleaseNotes>alpha of opio.net</PackageReleaseNotes>
+    <PackAsTool>False</PackAsTool>
+    <ToolCommandName>opio</ToolCommandName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\ASUS\Downloads\opio.jpeg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
