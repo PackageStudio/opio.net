@@ -1,7 +1,7 @@
 # opio
 opio .net command system (unity, godot.net, any .net project)
 
-`//demo class
+```//demo class
 class demo
 {
     //for print hello world write this
@@ -45,4 +45,4 @@ class {class_name_one}
             //code of class 3
         }
     }
-}`
+}```
