@@ -1,14 +1,48 @@
 # opio
 opio .net command system (unity, godot.net, any .net project)
 
-## hello world in opio
-https://github.com/PackageStudio/opio/blob/fd0d1bc2d36667e10cd7975d2c12aa9d7d3a991d/opio/demos/first_time.op#L4-L5
+`//demo class
+class demo
+{
+    //for print hello world write this
+    Console.Write>"hello world"
 
-# variable
-https://github.com/PackageStudio/opio/blob/fd0d1bc2d36667e10cd7975d2c12aa9d7d3a991d/opio/demos/first_time.op#L13-L23
+    //for get class
+    {class_name}<
 
-# class
-https://github.com/PackageStudio/opio/blob/fd0d1bc2d36667e10cd7975d2c12aa9d7d3a991d/opio/demos/first_time.op#L32-L45
+    //for invoke action
+    {get_action}>{get_vars}
 
-# using in C#
-https://github.com/PackageStudio/opio/blob/fd0d1bc2d36667e10cd7975d2c12aa9d7d3a991d/opio/demos/csharp.cs#L1-L20
+    //for make variable
+    object {name}
+
+    //for make variable and set of
+    object {name} = {value}
+
+    //for set variable
+    {get_variable} = {new_value}
+
+    //for get variable
+    {get_variable}<
+}
+
+//for make class
+class {class_name}
+{
+    {code_in_class}
+}
+
+//for make class in class
+//class 1
+class {class_name_one}
+{
+    //class 2
+    class {class_name_one}
+    {
+        //class 3
+        class {class_name_one}
+        {
+            //code of class 3
+        }
+    }
+}`
